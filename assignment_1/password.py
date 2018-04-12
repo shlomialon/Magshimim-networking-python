@@ -47,13 +47,14 @@ def get_password_strength(score):
         return 'Very Strong'
 
 def main():
-    password = get_input() # Get user input
-    length_score = get_length_score(password) 
-    variation_score = get_variation_score(password)
-    common_words_score = get_common_words_score(password)
-    # Get the average of scores
-    avg = (length_score + variation_score + common_words_score) / float(SCORES_NUM)
-    print ("Score:",avg,"-",get_password_strength(avg))
+    print("fJsdf77j".islower() and "fJsdf77j".islower())
+    # password = get_input() # Get user input
+    # length_score = get_length_score(password)
+    # variation_score = get_variation_score(password)
+    # common_words_score = get_common_words_score(password)
+    # # Get the average of scores
+    # avg = (length_score + variation_score + common_words_score) / float(SCORES_NUM)
+    # print ("Score:",avg,"-",get_password_strength(avg))
 
 
 if __name__== "__main__":
